@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh
+${PODS_ROOT}/../Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos/WebRTC.framework
+${BUILT_PRODUCTS_DIR}/flutter_webrtc/flutter_webrtc.framework
+${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework

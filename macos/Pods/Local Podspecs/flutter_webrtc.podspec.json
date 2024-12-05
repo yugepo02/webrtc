@@ -1,0 +1,33 @@
+{
+  "name": "flutter_webrtc",
+  "version": "0.2.2",
+  "summary": "Flutter WebRTC plugin for macOS.",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/cloudwebrtc/flutter-webrtc",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "CloudWebRTC": "duanweiwei1982@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "Classes/**/*"
+  ],
+  "vendored_frameworks": "WebRTC.framework",
+  "private_header_files": "third_party/include/**/*",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "/Users/kawamuramaki/Flutters/flutter_camera_app/macos/Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos/third_party/include"
+  },
+  "vendored_libraries": "third_party/lib/*.a",
+  "dependencies": {
+    "FlutterMacOS": [
+
+    ]
+  },
+  "platforms": {
+    "osx": "10.11"
+  }
+}
